@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: o;
+}
+
+#cantainer {
+    width: 75%;
+    height: 100vh;
+    background: #f5f5f5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+
+}
+#cart {
+    width: 350px;
+    background: white;
+    padding: 24px;
+    box-shadow: 0 0 10px 0 #ddd;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+
+#signup {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+#signup input {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 4px;
+}
+#cart h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    color: dodgerblue ;
+
+}
+
+#signup button {
+    border: none;
+    padding: 12px;
+    background: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border-radius: 4px;
+}
+#model {
+    position: absolute;
+    height: 100%;
+    background: rgb(0,0,0,0.8);
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#model-body {
+    width:550px;
+    height: 280px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#check-icon {
+    font-size: 56px;
+    color: green;
+}
+#check-title {
+    font-family: sans-serif;
+    color:#323232;
+}
+#close-btn {
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: inherit;
+}
+#close-btn i {
+    font-size: 24px;
+
+}

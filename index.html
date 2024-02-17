@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cantainer">
+        <div id="cart" class="animate__animated animate__backInDown animate__faster">
+            <h1>Register Now</h1>
+            <form id="signup" autocomplete="off" onsubmit="signup(event)" name="register">
+                <!-- we can use here id attribute to use input value on js id="firstname" * -->
+                <input name="firstname" type="text" placeholder="Firstname" required="true"/>     
+                <input name="lastname" type="text" placeholder="Lastname" required="true"/>      
+                <input name="email" type="email" placeholder="@gmail.com" required="true"/>      
+                <input name="password" type="password" placeholder="******" required="true"/>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="cart" class="animate__animated animate__zoomIn animate__faster">
+            <h1>SignIn</h1>
+            <form id="signup" autocomplete="off" onsubmit="signin(event)" name="login">
+                <input name="email" type="email" placeholder="@gmail.com" required="true"/>      
+                <input name="password" type="password" placeholder="******" required="true"/>
+                <button>Submit</button>
+            </form>
+        </div>
+        </div>
+        <div id="model" onclick="closeModel()">
+            <div id="model-body">
+                <button id="close-btn">
+                    <i class="fa fa-times-circle"></i>
+                </button>
+                <i class="fa fa-check-circle" id="check-icon"></i>
+                <h1 id="check-title">Register Successfully !</h1>
+            </div>
+        </div>
+
+   
+
+
+    <script src="index.js"></script>
+</body>
+</html>
